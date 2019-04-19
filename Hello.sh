@@ -9,5 +9,5 @@ echo "Buna Dimineata!"
 echo
 echo "Este a `date +"%j"`a zi a anului."
 echo
-
+echo `pwd`
 exit 0
