@@ -1,11 +1,13 @@
 #!/bin/bash
-ZI=$(date +"%A, %T")
-ZAN=$(date +"%j")
 
-echo "Este $ZI."
+# ZI=$(date +"%A, %T")
+#ZI=`date +"%A, %T"`
+#ZAN=$(date +"%j")
+
+echo "Este `date +"%A, %d/%m, %T"`."
 
 echo "Buna Dimineata!"
 
-echo "Este a $ZAN a zi a anului."
+echo "Este a `date +"%j"`a zi a anului."
 
 exit 0
