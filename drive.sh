@@ -1,4 +1,5 @@
 #!/bin/bash
+#comment pentru git pus
 echo "Cati ani ai?"
 read age
 
